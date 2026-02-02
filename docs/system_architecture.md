@@ -1,8 +1,8 @@
-#System Architecture
+# System Architecture
 
 The Explainable Traffic Congestion Analysis System is built using a multi-stage, agentic AI pipeline implemented in Langflow and powered by IBM watsonx.ai Granite models.
 
-##Components Overview
+## Components Overview
 
 1.User Input Layer
 Accepts traffic-related queries and congestion alerts
@@ -24,7 +24,7 @@ Converts analytical outputs into interpretable insights for traffic operators
 Uses IBM watsonx.ai Granite models for reasoning and generation
 Ensures consistent, explainable, and reliable AI outputs
 
-##Design Principles
+## Design Principles
 
 - Modular multi-agent architecture using Langflow
 - Explainable AI for transparent congestion analysis
