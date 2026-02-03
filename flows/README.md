@@ -5,14 +5,14 @@ This folder contains individual Langflow flow exports for the traffic congestion
 ## Files
 
 - model1_traffic_analysis.json
-Analyzes traffic data, patterns, and congestion indicators.
+Performs traffic data analysis by identifying congestion indicators, patterns, and anomalies.
 
 - model2_congestion_cause_analysis.json
-Identifies and explains the underlying causes of traffic congestion.
+Applies causal reasoning to determine and explain the underlying causes of traffic congestion.
 
 - model3_explainable_insight_generator.json
-Generates human-readable, explainable insights for user queries.
+Converts analytical outputs into clear, human-readable explanations for user queries.
 
 ## How to Use
 
-Import each JSON file into Langflow using the "Import Flow" option
+Import each JSON workflow into Langflow using the “Import Flow” option to execute the complete agentic traffic analysis pipeline powered by IBM watsonx.ai Granite models.
