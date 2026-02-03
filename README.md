@@ -39,11 +39,6 @@ The workflow is visually orchestrated using Langflow and powered by IBM watsonx.
 - Human-readable insights for decision-makers
 - IBM-native technology stack suitable for public-sector deployment
 
-## Project Presentation
-
-The complete hackathon presentation is available here:
-
-🔗 (Add your presentation link here)
 
 ## Disclaimer
 
