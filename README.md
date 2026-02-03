@@ -1,36 +1,54 @@
 # Traffic-congestion
 Agentic AI System for Explainable Traffic Congestion Analysis
 
-An AI-powered traffic analysis system built using IBM watsonx.ai, Langflow, and explainable multi-agent workflows.
+An AI-powered, explainable traffic intelligence system built using IBM watsonx.ai, IBM Granite foundation models, and Langflow.
 
-This project analyzes traffic data, identifies congestion patterns, explains underlying causes, and supports interactive user queries through transparent AI reasoning.
+The system goes beyond congestion detection by reasoning over traffic data, identifying root causes, and generating human-readable explanations through an agent-based AI architecture.
 
 ## Problem Statement
 
-AI-Based Explainable Traffic Congestion Analysis System
+Traditional traffic systems can detect congestion but fail to explain why it occurs, forcing operators to rely on manual interpretation and intuition.
+There is a need for an explainable AI system that not only identifies congestion but also provides transparent, trustworthy insights to support faster and more confident traffic decision-making.
 
 ## System Architecture
 
-The solution uses a **modular multi-agent architecture**:
+The solution follows a modular, multi-agent architecture, where each agent performs a clearly defined reasoning task.
+The workflow is visually orchestrated using Langflow and powered by IBM watsonx.ai Granite models. 
 
 ### Model 1 — Traffic Data Analysis Agent
-- Analyzes traffic data and congestion indicators
-- Identifies traffic patterns and abnormal conditions
+- Analyzes traffic data to detect congestion indicators and patterns
+- Identifies anomalies and abnormal traffic conditions
+
 ### Model 2 — Congestion Cause Analysis Agent
-- Determines underlying causes of traffic congestion
-- Correlates congestion with factors such as time, incidents, and traffic volume
+- Performs causal reasoning to determine underlying congestion causes
+- Correlates traffic behavior with time, incidents, and traffic volume changes
 
 ### Model 3 — Explainable Insight Generator
-- Converts analytical results into human-readable explanations
-- Provides transparent and interpretable insights for users
+- Converts analytical outputs into human-readable explanations
+- Ensures transparency and interpretability for end users
 
 ## Technology Stack
-- IBM watsonx.ai
-- IBM Granite Foundation Models
-- Langflow (DataStax)
+- IBM watsonx.ai – Enterprise AI platform for running foundation models
+- IBM Granite Foundation Models – Instruction-tuned models for explainable reasoning
+- Langflow – Visual orchestration of agentic AI workflows
+
+  
+## Key Highlights
+- Agentic AI architecture instead of a monolithic model
+- Explainability-first design aligned with Responsible AI principles
+- Human-readable insights for decision-makers
+- IBM-native technology stack suitable for public-sector deployment
 
 ## Project Presentation
 
 The complete hackathon presentation is available here:
 
 🔗 (Add your presentation link here)
+
+## Disclaimer
+
+This project is developed for educational and demonstration purposes only and does not provide real-time traffic control or operational decision-making in live city environments.
+
+
+
+
